@@ -97,7 +97,6 @@ button {
   border-radius: 500px;
 }
 
-
 .field {
   background-color: black;
   border-radius: 50px;
@@ -119,7 +118,60 @@ tr {
 table {
   width: 100%;
 }
-tfoot{
-    background-color: #fcaf02;
-    color: black;
+
+/* Contact Us Section Styles */
+.contact {
+  padding: 50px;
+  color: #ffffff;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fcaf02;
+  border-radius: 500px;
+  outline: none;
+  background-color: #000000;
+}
+
+.contact span {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #fcaf02;
+}
+
+.contact button {
+  background-color: #fcaf02;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 500px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact button:hover {
+  background-color: #0056b3;
+}
+
+tfoot {
+  background-color: #fcaf02;
+  color: black;
+}
+
+.footer {
+  background-color: #fcaf02;
+  color: black;
 }
